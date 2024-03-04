@@ -1,0 +1,20 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    width: 50%;
+    /* height: 350px; */
+    background-color: #fff;
+    /* text-align: center; */
+}
+
+.login-form {
+    padding: 10px 20px 30px 20px;
+    box-sizing: border-box;
+}

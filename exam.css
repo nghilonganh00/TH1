@@ -1,0 +1,16 @@
+.exam-container {
+    width: 96%;
+    height: 100vh;
+    padding: 10px 40px;
+    overflow-x: scroll;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.exam-parts {}
+
+.exam-part-1 {}
+
+.part-1-question {
+    margin-bottom: 10px;
+}

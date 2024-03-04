@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./exam.css">
+    <script src="./main.js"></script>
+    <title>Hệ thống trả lời khảo sát</title>
+</head>
+<body>
+    <div class="page exam">
+        <div class="exam-container">
+            <div class="exam-parts">
+                <div class="exam-part">
+                    <h3>Phần 1</h3>
+                    <div class="exam-part-1" id="exam-part-1">
+                        
+                    </div>
+                    
+                </div>
+                <div class="exam-part">
+                    <h3>Phần 2</h3>
+                    <div class="exam-part-2" id="exam-part-2">
+                    </div>
+                </div>
+
+                <div class="exam-part">
+                    <h3>Phần 3</h3>
+                    <div class="exam-part-3" id="exam-part-3">
+                       
+                    </div>
+                </div>
+
+                <div class="exam-part">
+                    <h3>Phần 4</h3>
+                    <div class="exam-part-1" id="exam-part-4">
+                        
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="button" onclick="redirectPage('result.html')">Nộp bài</div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", loadExamPage());
+    </script>
+</body>
+</html>
